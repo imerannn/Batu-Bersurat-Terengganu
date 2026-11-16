@@ -21,6 +21,8 @@ a{color:#7A4E22}a:hover{color:#4F3214}
 @media (max-width:720px){.links{flex-wrap:nowrap;overflow-x:auto;width:100%;gap:0 20px;-webkit-overflow-scrolling:touch;scrollbar-width:none}.links::-webkit-scrollbar{display:none}.links a{white-space:nowrap}section h1{font-size:32px !important}[style*="justify"]{text-align:left !important}}
 figcaption a,.cap a{overflow-wrap:anywhere}
 main p,main li{text-align:justify;text-justify:inter-word}
+main [style*="text-align: center"] p,main [style*="text-align: center"] li{text-align:center}
+main [style*="grid-template-columns"]>div:not([style*="text-align: center"])>p{text-align:left}
 @media (max-width:720px){main p,main li{text-align:left}}
 .card{background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 1px 3px rgba(42,33,24,0.08)}
 .foot{background:#2A2118;color:#E9DFCF;font-size:14px}
